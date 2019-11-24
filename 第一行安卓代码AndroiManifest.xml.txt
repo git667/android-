@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?> //version版本 encoding编码
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+//manifest显示 schemas模式
+这个在百度上搜http://schemas.android.com/apk/res/android
+
     package="com.example.myapplication">
 
     <application
