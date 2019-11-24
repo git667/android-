@@ -10,6 +10,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInsBundle tanceState) {
     //protected受保护的  onCreate在创建  Bundle捆绑 Ins惯性导航系统  tance实体 State状态
         super.onCreate(savedInstanceState); //超级的
-        setContentView(R.layout.activity_main); //set设置  Content内容  view看法
+        setContentView(R.layout.activity_main); //set设置  Content内容  view看法 layout布局
     }
 }
