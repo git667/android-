@@ -1,13 +1,15 @@
-package com.example.myapplication;
+package com.example.myapplication;  //包裹。com。例子。我的应用程序
 
-import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;  //进口 androidx。app的兼容性 活动
+import android.os.Bundle;  //操作系统。捆绑
 
 public class MainActivity extends AppCompatActivity {
+//public公共   extends延申
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    @Override //覆盖
+    protected void onCreate(Bundle savedInsBundle tanceState) {
+    //protected受保护的  onCreate在创建  Bundle捆绑 Ins惯性导航系统  tance实体 State状态
+        super.onCreate(savedInstanceState); //超级的
+        setContentView(R.layout.activity_main); //set设置  Content内容  view看法
     }
 }
