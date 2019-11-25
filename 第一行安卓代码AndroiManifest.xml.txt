@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?> //version版本 encoding编码
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 //manifest显示 schemas模式
-这个在百度上搜http://schemas.android.com/apk/res/android
-
+这个在百度上搜http://schemas.android.com/apk/res/android和ic_launcher
+这个在百度上搜supportsRtl
     package="com.example.myapplication">
 
     <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
+        android:allowBackup="true" //allow允许 Backup备份
+        android:icon="@mipmap/ic_launcher" //icon图标 mip投影  launcher发射器
+        android:label="@string/app_name" //label标签  string一串
+        android:roundIcon="@mipmap/ic_launcher_round" //round圆型 icon图标
+        android:supportsRtl="true"  //support支持
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
