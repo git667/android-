@@ -11,14 +11,16 @@
         android:label="@string/app_name" //label标签  string一串
         android:roundIcon="@mipmap/ic_launcher_round" //round圆型 icon图标
         android:supportsRtl="true"  //support支持
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"> //主题
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <intent-filter> //intent意图  filter过滤
+                <action android:name="android.intent.action.MAIN" /> //行动
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"
+               //category类别   LAUNCHER发射器 
+                />
             </intent-filter>
         </activity>
     </application>
 
-</manifest>
+</manifest>  //显示
