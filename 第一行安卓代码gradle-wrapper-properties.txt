@@ -1,0 +1,5 @@
+distributionBase=GRADLE_USER_HOME //distribution分布  Base底座
+distributionPath=wrapper/dists  //wrapper包装  dists距离
+distributionUrl=https\://services.gradle.org/distributions/gradle-5.4.1-bin.zip
+zipStoreBase=GRADLE_USER_HOME  //Store商店
+zipStorePath=wrapper/dists
