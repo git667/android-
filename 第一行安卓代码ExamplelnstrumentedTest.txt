@@ -1,0 +1,27 @@
+package com.example.myapplication;
+
+import android.content.Context; //content.Context内容.上下文
+
+pimport androidx.test.platform.app.InstrumentationRegistry; //platform平台 Instrumentation仪器 Registry注册 test测试
+import androidx.test.ext.junit.runners.AndroidJUnit4; //ext提取 junit单元测试  runners跑步者
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.*; //static静止 org组织  Assert断言 
+
+/**
+ * Instrumented test, which  will execute on an Android device. //which哪一个 execute执行 device装置
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a> //documentation文档
+ */
+@RunWith(AndroidJUnit4.class) //这个在百度上搜AndroidJUnit4和@有关的代码
+public class ExampleInstrumentedTest {  //Example Instrumented Test 
+    @Test
+    public void useAppContext() {
+        // Context of the app under下面 test.
+        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext(); //Target目标
+
+        assertEquals("com.example.myapplication", appContext.getPackageName()); //assert equals断言 等于
+    }
+}
