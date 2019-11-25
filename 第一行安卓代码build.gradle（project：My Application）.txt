@@ -1,0 +1,27 @@
+// Top-level水平 build file where you can add configuration配置 options选项 common常见的 to all sub附属的-projects/modules模块.
+
+buildscript {  //buildscript 构建脚本
+    repositories {  // repositories 存储库
+        google()
+        jcenter() //j center   jcenter() 
+        
+    }
+    dependencies {  // dependencies依赖关系
+        classpath 'com.android.tools.build:gradle:3.5.2'  //grade等级  gradle
+        
+        // NOTE: Do not place地方 your application dependencies依赖关系 here; they belong属于
+        // in the individual个人 module 模块build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir //buildDir 
+}
