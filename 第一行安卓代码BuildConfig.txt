@@ -4,7 +4,7 @@
 package com.example.myapplication;
 
 public final class BuildConfig { //final最终的  Config配置
-  public static final boolean DEBUG = Boolean.parseBoolean("true"); //boolean布尔型  parse解析
+  public static final boolean DEBUG = Boolean.parseBoolean(s："true"); //boolean布尔型  parse解析
   public static final String APPLICATION_ID = "com.example.myapplication"; //LICATION应用
   public static final String BUILD_TYPE = "debug"; //TYPE类型
   public static final String FLAVOR = ""; //FLAVOR风味
