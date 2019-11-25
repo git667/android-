@@ -1,0 +1,29 @@
+# Add project specific具体的 ProGuard守卫 rules here.
+# You can control the set of applied 应用configuration 配置files using 使用the
+# proguardFiles setting in build.gradle.
+#
+# For more details细节, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# If your project uses WebView with JS, uncomment 取消批注the following下列的
+# and specify 指定the fully完全地 qualified 有资格的class name to the JavaScript interface接口
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+# Uncomment this to preserve保存 the line线 number information for
+# debugging stack 堆栈traces踪迹.
+#-keepattributes SourceFile,LineNumberTable
+
+# If you keep the line number information信息, uncomment this to
+# hide the original 起初的source 来源file name.
+#-renamesourcefileattribute SourceFile
+
+
+//fqcn.of
+//members成员
+//attributes 属性
+//Source来源
+//Table桌子
+//rename重命名
